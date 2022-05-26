@@ -1,7 +1,7 @@
 from re import A
 
 class Book:
-    ## Инициализация
+    
     def __init__(self, books, writter, data, circulation, decript):
         self.books = books.strip()
         self.writter = writter.strip()
